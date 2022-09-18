@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Akaya+Kanadaka & family= Baloo+2 & family= Macondo+Swash+Caps & display=swap');
+
+*{
+  margin: 0;
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(77, 190, 255);
+
+}
+.titulo {
+  cursor: default;
+  height: 100px;
+  margin: auto;
+  display: block;
+  
+  -webkit-animation: bounce .3s ease infinite alternate;
+  
+  font-family: 'Akaya Kanadaka', cursive;
+  font-family: 'Baloo 2', cursive;
+  font-family: 'Macondo Swash Caps', cursive;
+
+  font-size: 75px;
+  color: rgb(8, 7, 7);
+  text-align: center;
+  text-shadow: 0 1px 0 rgb(245, 239, 239),
+               0 2px 0 rgb(238, 228, 228),
+               0 3px 0 rgb(243, 210, 210),
+               0 4px 0 rgb(243, 210, 210),
+               0 5px 0 rgb(238, 227, 227),
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 30px 30px rgba(0, 0, 0, .3);
+  }
+}
+.caja{
+  margin-top: 2%;
+  width: 82%;
+  padding: 3%;
+  border-radius: 5px;
+  background-color: rgb(225, 227, 228);
+  box-shadow: 0 19px 15px rgba(0, 0, 0, 0.3);
+}
+.caja1{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+   
+    
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.item{
+   
+width: 80%;
+height: 60%;
+  
+    
+}
+
+button {
+width: 100%;
+height: 70%;
+
+}
+svg { margin: 0 auto; 
+  width: 40px; 
+  height: auto;
+color: black; }
+
+
+
+
+ 
+
